@@ -13,6 +13,12 @@
 		15CCE32F244C870D00F6B840 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CCE32D244C870D00F6B840 /* Main.storyboard */; };
 		15CCE331244C870D00F6B840 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15CCE330244C870D00F6B840 /* Assets.xcassets */; };
 		15CCE334244C870D00F6B840 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CCE332244C870D00F6B840 /* LaunchScreen.storyboard */; };
+		15CCE33C244C873F00F6B840 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CCE33B244C873F00F6B840 /* State.swift */; };
+		15CCE33E244C876200F6B840 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CCE33D244C876200F6B840 /* Context.swift */; };
+		15CCE340244C879B00F6B840 /* DayState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CCE33F244C879B00F6B840 /* DayState.swift */; };
+		15CCE342244C87B300F6B840 /* NightState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CCE341244C87B300F6B840 /* NightState.swift */; };
+		15CCE345244C888500F6B840 /* SafeFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CCE344244C888500F6B840 /* SafeFrame.swift */; };
+		15CCE347244C88E900F6B840 /* SafeFrame.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15CCE346244C88E900F6B840 /* SafeFrame.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		15CCE330244C870D00F6B840 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15CCE333244C870D00F6B840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15CCE335244C870E00F6B840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15CCE33B244C873F00F6B840 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		15CCE33D244C876200F6B840 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		15CCE33F244C879B00F6B840 /* DayState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayState.swift; sourceTree = "<group>"; };
+		15CCE341244C87B300F6B840 /* NightState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightState.swift; sourceTree = "<group>"; };
+		15CCE344244C888500F6B840 /* SafeFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeFrame.swift; sourceTree = "<group>"; };
+		15CCE346244C88E900F6B840 /* SafeFrame.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SafeFrame.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,12 @@
 				15CCE327244C870D00F6B840 /* AppDelegate.swift */,
 				15CCE329244C870D00F6B840 /* SceneDelegate.swift */,
 				15CCE32B244C870D00F6B840 /* ViewController.swift */,
+				15CCE33B244C873F00F6B840 /* State.swift */,
+				15CCE33D244C876200F6B840 /* Context.swift */,
+				15CCE33F244C879B00F6B840 /* DayState.swift */,
+				15CCE341244C87B300F6B840 /* NightState.swift */,
+				15CCE344244C888500F6B840 /* SafeFrame.swift */,
+				15CCE346244C88E900F6B840 /* SafeFrame.xib */,
 				15CCE32D244C870D00F6B840 /* Main.storyboard */,
 				15CCE330244C870D00F6B840 /* Assets.xcassets */,
 				15CCE332244C870D00F6B840 /* LaunchScreen.storyboard */,
@@ -125,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15CCE347244C88E900F6B840 /* SafeFrame.xib in Resources */,
 				15CCE334244C870D00F6B840 /* LaunchScreen.storyboard in Resources */,
 				15CCE331244C870D00F6B840 /* Assets.xcassets in Resources */,
 				15CCE32F244C870D00F6B840 /* Main.storyboard in Resources */,
@@ -140,7 +159,12 @@
 			files = (
 				15CCE32C244C870D00F6B840 /* ViewController.swift in Sources */,
 				15CCE328244C870D00F6B840 /* AppDelegate.swift in Sources */,
+				15CCE342244C87B300F6B840 /* NightState.swift in Sources */,
 				15CCE32A244C870D00F6B840 /* SceneDelegate.swift in Sources */,
+				15CCE345244C888500F6B840 /* SafeFrame.swift in Sources */,
+				15CCE33E244C876200F6B840 /* Context.swift in Sources */,
+				15CCE340244C879B00F6B840 /* DayState.swift in Sources */,
+				15CCE33C244C873F00F6B840 /* State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

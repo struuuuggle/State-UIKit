@@ -9,12 +9,28 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet private weak var safeFrame: SafeFrame!
+    private var hour: Int = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
+    override func viewWillAppear(_ animated: Bool) {
+        Timer.scheduledTimer(
+            timeInterval: 1,
+            target: self,
+            selector: #selector(update),
+            userInfo: nil,
+            repeats: true
+        )
+    }
 }
 
+private extension ViewController {
+    @objc func update() {
+        safeFrame.setClock(hour: hour)
+        hour += 1
+        hour %= 24
+    }
+}
